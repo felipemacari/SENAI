@@ -1,0 +1,117 @@
+<!--Desafio:
+
+Com base nos conhecimentos adquisridos até o momento,
+crie um site pessoal respeitando os seguintes requisitos:
+
+1. Deve conter cabeçalho com menu de navegação;
+2. Deve conter uma área para apresentação dos conteúdos
+	2.1. Apresentar fotos;
+	2.2. Apresentar vídeos;
+3. Deve conter um rodapé contendo direitos autorais e um menu de 
+navegação.
+
+OBS. "Clones" dos exercícios realizados não serão aceitos.-->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>BetMax</title>
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+	 <style type="text/css">
+	 
+	</style>
+
+</head>
+<!--|HTML|-->
+<body>
+	<!--Cabeçalho-->
+	<div class="header">
+		<h1> Bem-vindo a BetMax!</h1>
+    </div>
+    <!--Fim do cabeçalho-->
+    <!--Menu interativo-->
+    <div class="nav">
+    	<a href="#apostar"><i class="fas fa-house"></i> Apostar</a>
+    	<a href="#depositar"><i class="fas fa-money-bill"></i> Depositar</a>
+    	<a href="#sacar"><i class="fas fa-money-bill"></i> Sacar</a>
+    	<a href="#suporte"><i class="fas fa-tty"></i> Suporte</a>
+    	<a href="#feedbacks"><i class="fas fa-comments"></i> Feedbacks</a>
+    </div>
+    <!--Fim do menu interativo-->
+    <!--Local apostar-->
+    <div id="apostar" class="content">
+    	<h2>BetMax</h2>
+    	<h4>Melhor lugar para apostar em Slots!</h4>
+
+    	<!--Imagens-->
+    	<img src="assets/images/tigre.jpg" alt="Foto icone" width="300">	
+    	<img src="assets/images/rabbit.jpg" alt="Foto icone" width="318.5">
+    	<img src="assets/images/mouse.jpg" alt="Foto icone" width="302">
+    	<img src="assets/images/toro.png" alt="Foto icone" width="310">
+    	<img src="assets/images/dragao.jpg" alt="Foto icone" width="312">
+    	<!--/Imagens-->
+    <!--Fim do local de apostar-->
+    <!--Depositar-->
+   <div id="depositar" class= "section">
+   		<h2>Depositar</h2>
+   		<p>
+   			Deposite diante a essa chave PIX:<br>
+   			<h2>114.841.539-44</h2>
+   		</p>
+   	<!--Fim depositar-->
+   	<!--Sacar-->
+   <div id="sacar">
+   		<h2>Sacar</h2>
+   		<p><B>Escolha seu meio de sacar:</B></p>
+   		<img src="assets/images/pix.png" alt="Foto icone" width="100">
+   		<img src="assets/images/cartao.png" alt="Foto icone" width="100">
+   		<p>
+   			
+   		</p>
+   		<input type="text" name="pix" placeholder="Digite Aqui"required>
+   </div>
+   <!--Fim sacar-->
+   <!--Suporte-->
+   <div id="suporte">
+   	<h2>Suporte</h2>
+   	<p><b>Entre em contato conosco:</b></p>
+   	<!--Lugar para contato-->
+   	<form class="contact-form">
+   		<input type="text" name="nome" placeholder="Digite seu nome"required>
+   		<input type="email" name="email" placeholder="Digite seu email"required>
+   		<textarea placeholder="Sua mensagem" rows="5" required></textarea>
+   		<button type="submit">Enviar mensagem</button>
+   	</form>
+   	<!--Fim lugar pra contato-->
+   	<!--Fim suporte-->
+
+   	<!--Feedbacks-->
+   	<div id="feedbacks" class="feedbacks">
+   	<h2>Feedbacks</h2>
+   	<!--video-->
+   	<video width="200" controls>
+   	<source src="assets/videos/tigre.mp4" type="video/mp4">
+   	</video>
+   	<!--Fim feedbacks-->
+   	</div>
+   	</div>
+   	<!--Rodapé-->
+   	<div class="footer">
+   	<div class="copy">
+   		<!--Menu interativo do rodapé-->
+   		<div class="nav">
+    	<a href="#apostar"><i class="fas fa-house"></i> Apostar</a>
+    	<a href="#depositar"><i class="fas fa-wallet"></i> Depositar</a>
+    	<a href="#sacar"><i class="fas fa-money-bill"></i> Sacar</a>
+    	<a href="#suporte"><i class="fas fa-tty"></i> Suporte</a>
+    	<a href="#feedbacks"><i class="fas fa-comments"></i> Feedbacks</a>
+    </div>
+    	<!--Fim do menu interativo do rodapé-->
+   		<p>&copy;BetMax - Todos os direitos reservados</p>
+   	</div>
+   	<!--Fim do rodapé-->
+</body>
+</html>
+	
