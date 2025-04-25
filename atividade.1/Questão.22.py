@@ -1,5 +1,5 @@
-numero = float(input("Digite um número: "))
-if numero == numero:
+numero = float(input("Digite um número: "))#pede um numero para a tabuada
+if numero == numero:#se o usuario digitar algum numero, vai dar a tabuada do numero até 10
     print(numero,"x 1 =",numero * 1)
     print(numero,"x 2 =",numero * 2)
     print(numero,"x 3 =",numero * 3)
