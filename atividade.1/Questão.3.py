@@ -1,6 +1,6 @@
 #pede as hooras trabalhadas
 normal = float(input("Quantas horas você trabalhou: "))
-extra = float(input("Quantas horas extras você fez: "))
+extra = float(input("Quantas horas extras você realizou: "))
 #llugar das contas
 horanormal = normal * 10
 horaextra = extra * 15
