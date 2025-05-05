@@ -1,5 +1,5 @@
 sanduiche = int(input("Quantos sanduíches serão feitos? "))#pede a quantidade de sanduiches
-#contas
+#local contas
 queijo = sanduiche * 0.100
 presunto = sanduiche * 0.050
 hamburguer = sanduiche * 0.100
